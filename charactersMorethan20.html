@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+function check()
+{
+    var x1 = document.getElementById("t1").value;
+	if(x1.length>5)
+	{
+		alert("You cannot enter more then 200 characters in the text area.");
+		
+	}
+}
+</script>
+</head>
+<body>
+<p> to check number of characters in text box </p>
+
+<input type="text" id = "t1"></input><br>
+
+<button type="button" onclick="check()">Click Me to check if text area contains more than 200 characters</button>
+</body>
+</html>

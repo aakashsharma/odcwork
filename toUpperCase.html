@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script>
+jQuery.fn.Uppercase = function () {
+var text = $(this).text();
+        var uppercaseText = '';
+       // var toggle = true; //lower/uppper toggle
+            $.each("this", function(i, nome) {
+                uppercaseText += (nome.toUpperCase() 
+            //    toggle = (toggle) ? false : true;
+)};
+return uppercaseText;
+}
+$(document).ready(function(){
+                             $("button").dblclick(function(){
+                                                          $("p").Uppercase();
+  
+});
+});
+</script>
+</head>
+
+<body>
+
+<p>This is a paragraph1.</p>
+
+
+</body>
+</html>

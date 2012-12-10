@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+<head><title>Reversal of string</title>
+<script>
+function stringReverse()
+{
+	var s = document.getElementById("t1").value;
+	var s1 = s.split("").reverse().join("");
+	document.getElementById("t2").value = s1;
+	
+}
+</script>
+</head>
+<body>
+<input type="text" id = "t1" ></input>
+
+<button onclick="stringReverse()">reverse</button>
+
+<input type="text" id = "t2" ></input>
+</body>
+</html>
